@@ -53,11 +53,11 @@ class _LocationScreenState extends State<LocationScreen> {
                   children: const <Widget>[
                     Text(
                       '32°',
-                      style: temperature,
+                      style: AppTextStyles.temperature,
                     ),
                     Text(
                       '☀️',
-                      style: condition,
+                      style: AppTextStyles.button,
                     ),
                   ],
                 ),
@@ -67,7 +67,7 @@ class _LocationScreenState extends State<LocationScreen> {
                 child: Text(
                   "It's 🍦 time in San Francisco!",
                   textAlign: TextAlign.right,
-                  style: message,
+                  style: AppTextStyles.message,
                 ),
               ),
             ],
