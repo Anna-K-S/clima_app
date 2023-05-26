@@ -1,7 +1,8 @@
 
-import 'package:flutter/material.dart';
-import 'loading_screen.dart';
+import 'package:clima_app/presentation/screen/loading_screen.dart';
+import 'package:flutter/material.dart'; 
 
+ 
 void main() => runApp(const Clima());
 
 class Clima extends StatelessWidget {
